@@ -1,0 +1,163 @@
+body{
+	/*background-image: var(--background-image);*/
+	/*background: linear-gradient(to right, #304352, #d7d2cc); */
+	/*background: linear-gradient(to right, #ff4e50, #f9d423);*/
+	background: linear-gradient(to right, #000000, #434343);
+	margin: 0px;
+	color: white;
+	font-family: Andale Mono, monospace;
+}
+
+
+
+.nav-bar{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding:0px 5% 0px 5%;
+	box-sizing: border-box;
+	transition: all ease-in-out 1s;
+	background-color:#0473EA;
+	/*background: linear-gradient(to left, #bdc3c7, #2c3e50); */
+	
+	
+
+}
+.nav-bar > div{
+	display: inline-block;
+}
+
+
+.website-logo img{
+
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	
+}
+
+.title-logo > div{
+
+	display: inline-block;
+
+}
+
+#second{
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: #FFFFFF;
+	width: 100%;
+	align-content: right;
+
+}
+
+#second div{
+  display: inline-block;
+  
+ align-items: center;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+
+}
+
+#second div a {
+  display: flex;
+  justify-content: flex-end;
+ align-items: center;
+  color:grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#sustain{
+
+	display: block;
+	width: 100%;
+	 background-image:
+      url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
+      height: 60vh;
+
+
+
+
+}
+
+#sustain div {
+text-align: center;
+
+}
+
+#cards{
+
+	display: flex;
+
+	justify-content: space-around;
+}
+
+#cards div img{
+
+	 border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+
+
+}
+#findoutmoree a p{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 40px;
+width: 200px;
+border-radius: 30px;
+	background-color:black;
+	
+}
+
+footer{
+
+	background-color: grey;
+	width: 100%;
+}
+
+footer div img{
+
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 100px;
+	margin-top: 30px;
+	border-radius:25%; 
+
+}
+
+#inline{
+
+	display: flex;
+	justify-content: space-around;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	margin: 10px;
+}
+
+#inline div ul li a{
+	text-decoration: none;
+	color: white;
+
+}
+
+#copyright p{
+
+	float: right;
+	margin: 20px 20px 20px 20px;
+}
